@@ -46,9 +46,18 @@
     color: wheat;
 }
 
+.texto-black {
+    color: white;
+}
+
 .texto-width {
     max-width: 741px;
-    color: #76777c;
+    /*color: #76777c;*/
+    color: #4e5e2a;
+    text-align: justify;
+    background-color: #ac9de9;
+    padding: 13px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Button */
@@ -82,8 +91,9 @@
 }
 
 .pagraph-description {
-    width: 100%;
+    max-width: 741px;
     color: #565656;
+    text-align: justify;
 }
 
 
