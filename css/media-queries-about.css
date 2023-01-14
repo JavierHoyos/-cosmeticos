@@ -32,6 +32,12 @@
 /* 'md' applies to small devices (landscape phones, less than 768px) */
 
 @media  screen and (max-width: 767.98px) {
+     /* Barra de navegación */
+
+    .img-main {
+        background-image: url(/images/cosmetics.jpg);
+    }
+
 /* Info-main */
 
 .info-main h1 {
@@ -102,9 +108,16 @@
 /* 'sm' applies to x-small devices (portrait phones, less than 576px)  */
 
 @media screen and (max-width: 575.98px) {
+
 }
 
 @media screen and (max-width: 375px) {
+     /* Barra de navegación */
+
+    .img-main {
+        background-image: url(/images/cosmetics.jpg);
+    }
+
     .image-1 {
         width: 315px;
         height: 446.98px;
@@ -113,6 +126,12 @@
 
 
 @media screen and (max-width: 320px) {
+     /* Barra de navegación */
+
+    .img-main {
+        background-image: url(/images/cosmetics.jpg);
+    }
+
     /* Info-main */
 
 .info-main h1 {
@@ -130,4 +149,3 @@
     font-size: 30px;
 }
 }
-
