@@ -72,6 +72,13 @@
 
 @media screen and (max-width: 767.98px) {
 
+    /* Barra de navegación */
+
+    .img-main {
+        background-image: url(/images/cosmetics.jpg);
+    }
+    
+
     /* Info-main */
     .info-main {
         width: 100%;
@@ -88,6 +95,12 @@
     .texto-blanco {
         font: 18px Cabin, sans-serif;
         text-align: center;
+    }
+
+    /* Descripción */
+
+    .pagraph-description {
+        padding: 0px 24px;
     }
 
     
@@ -108,6 +121,11 @@
 
     .registro-input {
         max-width: 200px;
+    }
+
+    .form-text {
+        padding: 0px 15px;
+        text-align: justify;
     }
     
     /* Button */
@@ -180,9 +198,10 @@
     font-weight: none;
 }
 
+ /* Barra de navegación */
+
 .img-main {
-    background-image: url(/images/pexels-maria-camila-castaño-7712467.jpg);
-    background-size: cover;
+    background-image: url(/images/cosmetics.jpg);
 }
 
 .texto-width {
@@ -263,7 +282,11 @@ button {
 
 }
 
-
+@media screen and (min-width: 320px) {
+    .texto-black {
+        color: white;
+    }
+}
 
 
 
